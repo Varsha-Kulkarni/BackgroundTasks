@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AlarmManagerScheduler" />
             <option value="$PROJECT_DIR$/WorkManagerScheduler" />
+            <option value="$PROJECT_DIR$/analyzedozemode" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/jobschedulerdemo" />
           </set>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnalyzeDozeMode</string>
+    <string name="doze_mode_demo">Doze Mode Demo</string>
+</resources>
