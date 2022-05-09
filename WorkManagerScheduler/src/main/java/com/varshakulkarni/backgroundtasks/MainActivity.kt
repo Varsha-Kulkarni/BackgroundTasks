@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val workManager = WorkManager.getInstance(this)
+        workManager.cancelAllWork()
         val periodicRequest =
             PeriodicWorkRequest.Builder(NotificationsWorker::class.java, 1, TimeUnit.HOURS).build()
         workManager.enqueueUniquePeriodicWork(

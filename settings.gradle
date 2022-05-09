@@ -9,3 +9,5 @@ dependencyResolutionManagement {
 rootProject.name = "BackgroundTasks"
 include ':WorkManagerScheduler'
 include ':AlarmManagerScheduler'
+include ':jobschedulerdemo'
+include ':common'
